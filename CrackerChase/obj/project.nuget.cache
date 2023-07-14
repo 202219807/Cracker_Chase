@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jl+FTiSoY02w5XwJUZMCvZpcv1eFDXWk+ydsLG9KrjvbjiLgP2MlGK3PEz6wQetcqcajhqFuWa8Pi1bfQ7Qc2g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ronni\\Desktop\\Game Development\\Games\\Cracker Chase\\CrackerChase\\CrackerChase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ronni\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\ronni\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}

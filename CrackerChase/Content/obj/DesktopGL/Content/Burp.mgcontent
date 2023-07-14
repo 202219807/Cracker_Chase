@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/ronni/Desktop/Game Development/Games/Cracker Chase/CrackerChase/Content/Burp.wav</SourceFile>
+  <SourceTime>2023-07-13T23:21:45.2062342+01:00</SourceTime>
+  <DestFile>C:/Users/ronni/Desktop/Game Development/Games/Cracker Chase/CrackerChase/Content/bin/DesktopGL/Content/Burp.xnb</DestFile>
+  <DestTime>2023-07-13T23:22:44.0709438+01:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2020-08-10T17:17:54+01:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2020-08-10T17:17:54+01:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

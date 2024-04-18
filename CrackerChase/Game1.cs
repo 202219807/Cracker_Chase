@@ -33,8 +33,8 @@ namespace CrackerChase
         bool playing;
 
         /// <summary> 
-        /// <c>startPlayingGame</c> resets various elements and sets up the game for play, 
-        /// including displaying a message and setting flags for playing and timer duration. 
+        /// <c>startPlayingGame</c> Reset's all sprites and targets, sets the game title and 
+        /// timer, initializes the score, and activates the game mode. 
         /// </summary> 
         void startPlayingGame()
         {
@@ -60,8 +60,7 @@ namespace CrackerChase
         }
 
         /// <summary> 
-        /// <c>Initialize</c> initializes the component by calling the inherited `Initialize` 
-        /// method and performing any additional initialization required for the specific implementation. 
+        /// <c>Initialize</c> initializes the class by performing any necessary setup or configuration. 
         /// </summary> 
         protected override void Initialize()
         {
@@ -69,9 +68,10 @@ namespace CrackerChase
         }
 
         /// <summary> 
-        /// <c>LoadContent</c> loads textures, fonts, and a sound effect into memory for use 
-        /// in the game. It creates a SpriteBatch, a Texture2D for each loaded texture, and 
-        /// adds them to a list of game sprites and another list for later use. 
+        /// <c>LoadContent</c> loads content for the game, including sprites, fonts, and sounds. 
+        /// It creates a SpriteBatch, loads textures for cheese, cloth, and cracker, and adds 
+        /// them to the gameSprites list. Additionally, it creates a Mover object for the 
+        /// cheese and adds it to the gameSprites list. 
         /// </summary> 
         protected override void LoadContent()
         {
@@ -110,7 +110,8 @@ namespace CrackerChase
         }
 
         /// <summary> 
-        /// <c>UnloadContent</c> is responsible for unloading any non-ContentManager content. 
+        /// <c>UnloadContent</c> is intended to unload any non-ContentManager content during 
+        /// application shutdown. 
         /// </summary> 
         protected override void UnloadContent()
         {

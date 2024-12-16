@@ -32,6 +32,10 @@ namespace CrackerChase
         int timer;
         bool playing;
 
+        /// <summary> 
+        /// <c>startPlayingGame</c> Reset's all sprites and targets, sets the game title and 
+        /// timer, initializes the score, and activates the game mode. 
+        /// </summary> 
         void startPlayingGame()
         {
             foreach (Sprite s in gameSprites)
@@ -55,11 +59,20 @@ namespace CrackerChase
             Content.RootDirectory = "Content";
         }
 
+        /// <summary> 
+        /// <c>Initialize</c> initializes the class by performing any necessary setup or configuration. 
+        /// </summary> 
         protected override void Initialize()
         {
             base.Initialize();
         }
 
+        /// <summary> 
+        /// <c>LoadContent</c> loads content for the game, including sprites, fonts, and sounds. 
+        /// It creates a SpriteBatch, loads textures for cheese, cloth, and cracker, and adds 
+        /// them to the gameSprites list. Additionally, it creates a Mover object for the 
+        /// cheese and adds it to the gameSprites list. 
+        /// </summary> 
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
@@ -96,6 +109,10 @@ namespace CrackerChase
             startPlayingGame();
         }
 
+        /// <summary> 
+        /// <c>UnloadContent</c> is intended to unload any non-ContentManager content during 
+        /// application shutdown. 
+        /// </summary> 
         protected override void UnloadContent()
         {
             // TODO: Unload any non ContentManager content here
